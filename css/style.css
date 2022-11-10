@@ -1,0 +1,192 @@
+/* common code start */
+:root{
+	font-family: Arial, Helvetica, sans-serif;
+}
+body, ul, h1, h2{
+	margin: 0rem;
+}
+/* common code end */
+
+/* header area code start */
+header{
+	text-align: center;
+	margin-bottom: 1rem;
+}
+header h1, header h2{
+	color: #18363C;
+	margin: .5rem;
+}
+/* header area code end */
+
+/* nav area code start */
+nav{
+	background: #004B5B;
+}
+nav ul{
+	display: flex;
+}
+nav ul li{
+	list-style: none;
+}
+nav ul li a{
+	color: #EBEDEF;
+	padding: .8rem;
+	text-decoration: none;
+	display: inline-block;
+	transition: .5s all;
+	border-right: .1rem solid #EBEDEF;
+}
+nav ul li:first-child{
+	border-left: .1rem solid #EBEDEF;
+}
+nav ul li a.active, nav ul li a:hover{
+	background: #18363C;
+}
+/* nav area code end */
+
+/* video area code start */
+video {
+    max-width: 40rem;
+    height: auto;
+    object-fit: cover;
+    display: block;
+  	margin: 0px auto;
+}
+/* video area code end */
+
+/* main area code start */
+main{
+	display: flex;
+	width: 95%;
+	margin: 1.5rem auto;
+}
+main section.primary-section{
+	width: 75%;
+}
+/* content section area code start */
+section.primary-section section.content-section{
+	display: flex;
+	margin-bottom: 1.5rem;
+}
+section.content-section article{
+	width: 70%;
+}
+section.content-section article p{
+	line-height: 1.5;
+}
+section.content-section article a{
+	color: #fff;
+	display: block;
+	padding: .6rem;
+	text-align: center;
+	background: #004B5B;
+	text-decoration: none;
+	transition: .5s all;
+}
+section.content-section article a:hover{
+	background: #18363C;
+}
+section.content-section figure{
+	width: 30%;
+	margin: 0px 2rem 0px 2rem;
+}
+section.content-section figure img{
+	width: 100%;
+	display: block;
+}
+/* content section area code end */
+
+/* aside area code start */
+main aside{
+	width: 25%;
+}
+aside h2{
+	margin-bottom: 1rem;
+}
+aside ul{
+	padding: 0rem;
+}
+aside ul li{
+	list-style: none;
+}
+aside ul li a{
+	color: #EBEDEF;
+	background: #004B5B;
+	padding: .6rem;
+	text-decoration: none;
+	display: block;
+	transition: .5s all;
+	border-bottom: .1rem solid #EBEDEF;
+}
+aside ul li a:hover{
+	background: #18363C;
+}
+aside ul li a img{
+	width: 100%;
+	display: block;
+}
+aside .product-ul li:nth-child(2){
+	margin: 2rem 0px;
+}
+/* aside area code end */
+
+/* main area code end */
+
+/* footer area code start */
+footer{
+	text-align: center;
+	padding: 1.2rem;
+}
+footer p{
+	margin: 0px;
+}
+/* footer area code end */
+
+/* pricing page code start */
+section.primary-section fieldset{
+	width: 90%;
+	margin: 0rem auto;
+}
+
+section.primary-section table{
+	width: 100%;
+	padding: 1.8rem;
+	margin: 0rem auto;
+}
+section.primary-section table th,
+section.primary-section table td {
+  border: 1px solid #004B5B;
+  padding: 5px 10px;
+}
+section.primary-section table td a {
+  text-decoration: none;
+  text-align: center;
+  color: #18363C;
+}
+/* pricing page code end */
+
+section.primary-section form table td:first-child{
+	width: 15%;
+	border: none;
+}
+section.primary-section form table td:last-child{
+	border: none;
+}
+section.primary-section form table td button{
+	color: #EBEDEF;
+	background: #004B5B;
+	padding: .8rem;
+	display: block;
+	transition: .5s all;
+	border:none;
+	width: 100%;
+}
+section.primary-section form table td button:hover{
+	cursor: pointer;
+	background: #18363C;
+}
+section.primary-section form table input,
+section.primary-section form table textarea{
+	width: 95%;
+	padding: 10px;
+}
